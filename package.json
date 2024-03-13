@@ -1,0 +1,20 @@
+{
+  "name": "next-htaccess-generator",
+  "version": "0.0.8",
+  "description": "This is a simple package to generate htaccess file from next build.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "keywords": [
+    "next",
+    "htaccess",
+    "generator",
+    "build"
+  ],
+  "bin": {
+    "next-htaccess-generator": "./index.js"
+  },
+  "author": "Jay Sandip Parmar",
+  "license": "ISC"
+}
