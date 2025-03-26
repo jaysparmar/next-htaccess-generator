@@ -12,11 +12,8 @@ function readConfig() {
 
   try {
     let configData = fs.readFileSync(configPath, 'utf8');
-    configData = JSON.parse(configData)
-    if(configData){
-      configData = {DEFAULT_CONFIG,...configData}
-    }
-    return (configData);
+    configData = JSON.parse(configData);
+    return { ...DEFAULT_CONFIG, ...configData };
   } catch (err) {
     console.error('Error reading config file:', err.message);
     console.log('Using default config.');

@@ -1,6 +1,6 @@
 {
   "name": "next-htaccess-generator",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "This is a simple package to generate htaccess file from next build.",
   "main": "index.js",
   "scripts": {
